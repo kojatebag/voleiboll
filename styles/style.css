@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'poppinsbold';
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body{
+    background-color: #00A2E8;
+}
+
+aside{
+    padding-top: 75px;
+    margin: auto;
+}
+
+#btn{
+    position: absolute;
+    top: 28%;
+    left: 42.3%;
+}
+
+.botao{
+    font-family: 'poppinslight';
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25%;
+    margin-bottom: 35%;
+    border: none;
+    border-radius: 50%;
+    margin-right: 13px;
+    padding: 5px;
+}
+
+.botao:hover{
+    background-color: #00A2E8;
+    color: white;
+}
+
+#quadra{
+    transform: rotate(90deg);
+}
+
+#lev{
+    display: none;
+}
+
+#opo{
+    display: none;
+}
+
+#pon{
+    display: none;
+}
+
+#cen{
+    display: none;
+}
+
+#lib{
+    display: none;
+}

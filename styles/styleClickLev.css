@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'poppinsbold';
+    margin: 0 auto;
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+body{
+    background-color: #00A2E8;
+}
+
+aside{
+    padding-top: 75px;
+    position: relative;
+    padding-left: 50px;
+}
+
+#btn{
+    position: absolute;
+    top: 22%;
+    left: 33.5%;
+}
+
+.botao{
+    font-family: 'poppinslight';
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25%;
+    margin-bottom: 35%;
+    border: none;
+    border-radius: 50%;
+    margin-right: 13px;
+    padding: 5px;
+}
+
+.botao:hover{
+    background-color: #00A2E8;
+    color: white;
+}
+
+#quadra{
+    transform: rotate(90deg);
+}
+
+article{
+    padding-top: 30px;
+    background-color: black;
+    color: aliceblue;
+    height: 89.1vh;
+    width: 30%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'poppinsbold';
+}
+
+h3{
+    font-family: 'poppinslight';
+    margin: 20px;
+}
+
+#opo{
+    display: none;
+}
+
+#pon{
+    display: none;
+}
+
+#cen{
+    display: none;
+}
+
+#lib{
+    display: none;
+}
