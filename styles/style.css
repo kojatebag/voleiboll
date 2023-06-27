@@ -8,9 +8,13 @@ header{
     font-family: 'poppinsbold';
     margin: 0 auto;
     color: aliceblue;
-    background-color: rgb(255, 0, 0);
+    background-image: linear-gradient(to top, transparent 15%, rgb(0, 0, 0));
     text-align: center;
     width: 100%;
+}
+
+h1{
+    font-size: 3.5em;
 }
 
 main{
@@ -20,7 +24,8 @@ main{
 }
 
 body{
-    background-color: #00A2E8;
+    background-image: url(/img/bcgd.png);
+    background-size: cover;
 }
 
 aside{
@@ -30,7 +35,7 @@ aside{
 
 #btn{
     position: absolute;
-    top: 28%;
+    top: 33%;
     left: 42.3%;
 }
 
@@ -55,24 +60,4 @@ aside{
 
 #quadra{
     transform: rotate(90deg);
-}
-
-#lev{
-    display: none;
-}
-
-#opo{
-    display: none;
-}
-
-#pon{
-    display: none;
-}
-
-#cen{
-    display: none;
-}
-
-#lib{
-    display: none;
 }

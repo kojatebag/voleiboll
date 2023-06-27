@@ -70,3 +70,8 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'vnl';
+    src: url('./VNL.ttf') format('ttf');
+}
